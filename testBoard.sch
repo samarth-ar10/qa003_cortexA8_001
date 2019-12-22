@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -13419,12 +13419,6 @@ NHD-7.0-800480EF-ASXV#-T </text>
 <pinref part="U$1" gate="IS42S16160G-5BL" pin="B2-DQ13"/>
 <wire x1="138" y1="532" x2="136" y2="532" width="0.1524" layer="91"/>
 <label x="124.5" y="531" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$45" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="DDR_DQS1"/>
-<wire x1="167.01" y1="385.767" x2="200.03" y2="385.767" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DDR_D9" class="0">
